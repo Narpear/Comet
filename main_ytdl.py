@@ -73,7 +73,7 @@ async def setup(client):
 async def main():
     await setup(client)
 
-TOKEN = "MTIzMzM1MTg3OTAwNjYyMTcyNw.GigoWx.ncdpWj2v3r-UKWnRYMC06xS9RSutA4Pni-bSYk"
+TOKEN = "your-token-here"
 
 client.setup_hook = main
 client.run(TOKEN)
