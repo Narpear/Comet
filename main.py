@@ -9,4 +9,4 @@ for i in range(len(cogs)):
   cogs[i].setup(client)
 
 client.run(
-    "token")
+    "")
